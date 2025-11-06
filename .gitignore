@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Training outputs
+output/
+logs/
+work_dirs/
+*.log
+*.log.json
+
+# Model checkpoints (太大不要上傳)
+*.pth
+*.pkl
+*.ckpt
+*.weights
+
+# Dataset (不要上傳原始資料)
+dataset/
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# System
+.cache/
+*.pid
